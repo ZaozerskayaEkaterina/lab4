@@ -4,7 +4,7 @@
 import find_difference
 
 n = input("Enter the size of the array: ")
-while True:
+while True: #проверка числа n
     try:
         n = int(n)
         break
@@ -14,7 +14,7 @@ while True:
 arr = []
 for i in range(n):
     x = input('Enter element: ')
-    while True:
+    while True: #проверка каждого нового введенного элемента
         try:
             x = int(x)
             break
